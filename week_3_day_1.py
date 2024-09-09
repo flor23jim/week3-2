@@ -50,24 +50,33 @@
 # # Review
 # create variables for the following :
 # 1. age
+age=input("how old are you")
 # 2. name
+name=input("what is your name")
 # 3. song
+song=input("what is your favorite song?")
 # 4. food
+Food= input("what is your favorite food?")
 # 5. number
+number=input("what is your favorite number?")
 
 
 # #now include the variables you just made print in the following...
-
-
+print ("I am" + age)
+print (" my name is"+ name)
+print ("my favorite song is"+ song)
+print ( " my favorite food is"+ Food )
+print ( " my favorite number is"+ number)
 # Once upon a time, there was a [age] old coder named [name].
-
-
+print (" one upon a time there was a" + str(age)+ " old coder named"+ name +" .")
+# f string 
+print( f" one upon a time there was a" + (age) +"coder named"+ name + ".")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print(name+ "like to hum the song"+ song+ "while coding. It was so annoying that their teammates would throw" + Food + "until"+ name + "would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
-
+print ( f"Still "+ name + " was the best coder on the team and could write"+ number + "lines of code every day. Maybe"+ song +" was"+ name +"'s secret power?")
 
 
 
