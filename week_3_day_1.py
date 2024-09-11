@@ -181,37 +181,37 @@
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-print(2 + 2)
-# #multiplication
-print( 2 * 2)
-# #division
-print (2/2)
-# #modulo
-print(2%2) #remainder of the divison 
-# #powers
-print( 2**2)
-# #get the max and min of a number
-print( max(2,3)) # max number of two 
-print(min(2,3)) # min number of two
-# #round a number
-print(round(2.5)) #round to the nearset whole number 
-# # absolute value
-print( abs(-2)) #absolute value of a number 
-# # order of operations
-print(2+ 10 *10+ 3) # order of operation 
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print(floor(3.7)) # floor is the base
-print(floor(3.3))
-print(floor(3.9)) 
-# #ceil method
-print( ceil(3.7))# ceil is the higher number that it could get too so in this case 4
-# #sqrt method
-print( sqrt(4)) # the sqaure root of the number so in this case the square root of four 
+# ##########################################################################################
+# # #addition
+# print(2 + 2)
+# # #multiplication
+# print( 2 * 2)
+# # #division
+# print (2/2)
+# # #modulo
+# print(2%2) #remainder of the divison 
+# # #powers
+# print( 2**2)
+# # #get the max and min of a number
+# print( max(2,3)) # max number of two 
+# print(min(2,3)) # min number of two
+# # #round a number
+# print(round(2.5)) #round to the nearset whole number 
+# # # absolute value
+# print( abs(-2)) #absolute value of a number 
+# # # order of operations
+# print(2+ 10 *10+ 3) # order of operation 
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7)) # floor is the base
+# print(floor(3.3))
+# print(floor(3.9)) 
+# # #ceil method
+# print( ceil(3.7))# ceil is the higher number that it could get too so in this case 4
+# # #sqrt method
+# print( sqrt(4)) # the sqaure root of the number so in this case the square root of four 
 
 
 
@@ -235,16 +235,19 @@ print( sqrt(4)) # the sqaure root of the number so in this case the square root 
 # #ask the user for 2 numbers
 # # print out a statement where you:
 # # add them together
-# #multiply
+# #multiply fl
 # # find the max number
 # # find the remainder of the numbers
 # #round one number
 
-
-
-
-
-
+name=input( " what is your name?")
+first_number=int(input(" can you give me one number?"))
+second_number=int(input("can you give me another number?"))
+print(first_number + second_number )
+print( first_number * second_number)
+print(max(first_number,second_number))
+print(first_number%second_number)
+print(round(first_number))
 
 
 ##########################################################################################
