@@ -111,13 +111,19 @@ print ( f"Still "+ name + " was the best coder on the team and could write"+ num
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
+# 1st_name 
+# correct way is first_name
 # last name
+# correct - last_name
 # email@address
+# correct email_address
 # percent%
+# correct  percent 
 # variable#name
+# correct variable_name
 # O
-# list
+#zero
+# list 
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -139,9 +145,10 @@ print ( f"Still "+ name + " was the best coder on the team and could write"+ num
 # percentage
 # variable_name
 # 1_variable
+# variable_one 
 # email@address
 # percentage%
-# i
+# Illinois
 
 
 
