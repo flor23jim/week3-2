@@ -47,36 +47,36 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age=input("how old are you")
-# 2. name
-name=input("what is your name")
-# 3. song
-song=input("what is your favorite song?")
-# 4. food
-Food= input("what is your favorite food?")
-# 5. number
-number=input("what is your favorite number?")
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age=input("how old are you")
+# # 2. name
+# name=input("what is your name")
+# # 3. song
+# song=input("what is your favorite song?")
+# # 4. food
+# Food= input("what is your favorite food?")
+# # 5. number
+# number=input("what is your favorite number?")
 
 
-# #now include the variables you just made print in the following...
-print ("I am" + age)
-print (" my name is"+ name)
-print ("my favorite song is"+ song)
-print ( " my favorite food is"+ Food )
-print ( " my favorite number is"+ number)
-# Once upon a time, there was a [age] old coder named [name].
-print (" one upon a time there was a" + str(age)+ " old coder named"+ name +" .")
-# f string 
-print( f" one upon a time there was a" + (age) +"coder named"+ name + ".")
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(name+ "like to hum the song"+ song+ "while coding. It was so annoying that their teammates would throw" + Food + "until"+ name + "would stop singing.")
+# # #now include the variables you just made print in the following...
+# print ("I am" + age)
+# print (" my name is"+ name)
+# print ("my favorite song is"+ song)
+# print ( " my favorite food is"+ Food )
+# print ( " my favorite number is"+ number)
+# # Once upon a time, there was a [age] old coder named [name].
+# print (" one upon a time there was a" + str(age)+ " old coder named"+ name +" .")
+# # f string 
+# print( f" one upon a time there was a" + (age) +"coder named"+ name + ".")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(name+ "like to hum the song"+ song+ "while coding. It was so annoying that their teammates would throw" + Food + "until"+ name + "would stop singing.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
-print ( f"Still "+ name + " was the best coder on the team and could write"+ number + "lines of code every day. Maybe"+ song +" was"+ name +"'s secret power?")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# ##########################################################################################
+# print ( f"Still "+ name + " was the best coder on the team and could write"+ number + "lines of code every day. Maybe"+ song +" was"+ name +"'s secret power?")
 
 
 
@@ -183,20 +183,35 @@ print ( f"Still "+ name + " was the best coder on the team and could write"+ num
 
 ##########################################################################################
 # #addition
+print(2 + 2)
 # #multiplication
+print( 2 * 2)
 # #division
+print (2/2)
 # #modulo
+print(2%2) #remainder of the divison 
 # #powers
+print( 2**2)
 # #get the max and min of a number
+print( max(2,3)) # max number of two 
+print(min(2,3)) # min number of two
 # #round a number
+print(round(2.5)) #round to the nearset whole number 
 # # absolute value
+print( abs(-2)) #absolute value of a number 
 # # order of operations
+print(2+ 10 *10+ 3) # order of operation 
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.7)) # floor is the base
+print(floor(3.3))
+print(floor(3.9)) 
 # #ceil method
+print( ceil(3.7))# ceil is the higher number that it could get too so in this case 4
 # #sqrt method
+print( sqrt(4)) # the sqaure root of the number so in this case the square root of four 
 
 
 
